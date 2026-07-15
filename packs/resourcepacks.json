@@ -1,0 +1,9 @@
+{
+  "type": "list",
+  "id": "resourcepacks",
+  "name": "Resource Packs",
+  "specVersion": 1,
+  "childPacks": [
+    "bamboo-texture-fix.json"
+  ]
+}

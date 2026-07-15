@@ -1,0 +1,18 @@
+{
+  "type": "atomic",
+  "id": "bamboo-texture-fix",
+  "name": "Bamboo Texture Fix",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [],
+  "structure": {
+    "LICENSE": "/licenses/creamonResourcepackLicense",
+    "README.md": "/readmeFiles/bambooTextureFix.md",
+    "pack.png": "/packIcons/bambooTextureFix.png",
+    "assets/minecraft/textures/block/": {
+      "bamboo_block.png": "/textures/block/bamboo_block.png",
+      "bamboo_block_top.png": "/textures/block/bamboo_block_top.png"
+    }
+  },
+  "postBuild": []
+}
