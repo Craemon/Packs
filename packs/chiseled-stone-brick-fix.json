@@ -1,0 +1,22 @@
+{
+  "type": "atomic",
+  "id": "chiseled-stone-brick-fix",
+  "name": "Chiseled Stone Brick Fix",
+  "author": "Craemon",
+  "characteristics": ["resourcepack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_resourcepack_mcmeta.lua"
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonResourcepackLicense",
+    "README.md": "/readmeFiles/chiseledStoneBrickFix.md",
+    "pack.png": "/packIcons/chiseledStoneBrickFix.png",
+    "assets/minecraft/textures/block/": {
+      "chiseled_stone_bricks.png": "/textures/block/chiseled_stone_bricks.png"
+    }
+  },
+  "postBuild": []
+}

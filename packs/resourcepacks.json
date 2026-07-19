@@ -4,6 +4,7 @@
   "name": "Resource Packs",
   "specVersion": 1,
   "childPacks": [
-    "bamboo-texture-fix.json"
+    "bamboo-texture-fix.json",
+    "chiseled-stone-brick-fix.json"
   ]
 }
