@@ -5,6 +5,7 @@
   "specVersion": 1,
   "childPacks": [
     "bamboo-texture-fix.json",
-    "chiseled-stone-brick-fix.json"
+    "chiseled-stone-brick-fix.json",
+    "christmas-chests-all-year.json"
   ]
 }
