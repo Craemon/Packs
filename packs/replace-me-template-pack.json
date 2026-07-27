@@ -1,0 +1,26 @@
+{
+  "type": "atomic",
+  "id": "replace-me-template-pack",
+  "name": "No More Christmas Chests",
+  "author": "Craemon",
+  "characteristics": ["resourcepack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_resourcepack_mcmeta.lua"
+  ],
+  "structure": {
+    "README.txt": "/readmeFiles/replaceMeTemplatePack.txt",
+    "pack.png": "/packIcons/replaceMeTemplatePack.png",
+    "assets/betterchromakey/textures/entity/chest/": {
+      "items/": {
+        "replace_me_block.json": "/items/replace_me_block.json",
+        "replace_me_lamp.json": "/items/replace_me_lamp.json"
+      },
+      "models/block/replace_me_block.json": "/models/block/replace_me_block.json",
+      "textures/block/replace_me.png": "/textures/block/replace_me.png"
+    }
+  },
+  "postBuild": []
+}
