@@ -1,0 +1,24 @@
+{
+  "type": "atomic",
+  "id": "no-more-christmas-chests",
+  "name": "No More Christmas Chests",
+  "author": "Craemon",
+  "characteristics": ["resourcepack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_resourcepack_mcmeta.lua"
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonResourcepackLicense",
+    "README.md": "/readmeFiles/noMoreChristmasChests.md",
+    "pack.png": "/packIcons/noMoreChristmasChests.png",
+    "assets/minecraft/textures/entity/chest/": {
+      "christmas.png": "/textures/entity/chest/normal.png",
+      "christmas_left.png": "/textures/entity/chest/normal_left.png",
+      "christmas_right.png": "/textures/entity/chest/normal_right.png"
+    }
+  },
+  "postBuild": []
+}
