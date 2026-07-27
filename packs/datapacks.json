@@ -1,0 +1,8 @@
+{
+  "type": "list",
+  "id": "datapacks",
+  "name": "Datapacks",
+  "specVersion": 1,
+  "childPacks": [
+  ]
+}
