@@ -1,0 +1,34 @@
+{
+  "type": "atomic",
+  "id": "chromakey",
+  "name": "Chromakey",
+  "author": "Craemon",
+  "characteristics": ["resourcepack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_resourcepack_mcmeta.lua"
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonResourcepackLicense",
+    "README.md": "/readmeFiles/chromakey.md",
+    "pack.png": "/packIcons/chromakey.png",
+    "assets/minecraft/": {
+      "models/block/": {
+        "ochre_froglight.json": "/models/block/chromakey_ochre_froglight.json",
+        "ochre_froglight_horizontal.json": "/models/block/chromakey_ochre_froglight_horizontal.json",
+        "pearlescent_froglight.json": "/models/block/chromakey_pearlescent_froglight.json",
+        "pearlescent_froglight_horizontal.json": "/models/block/chromakey_pearlescent_froglight_horizontal.json",
+        "verdant_froglight.json": "/models/block/chromakey_verdant_froglight.json",
+        "verdant_froglight_horizontal.json": "/models/block/chromakey_verdant_froglight_horizontal.json"
+      },
+      "textures/block/": {
+        "chroma_blue.png": "/textures/block/chroma_blue.png",
+        "chroma_green.png": "/textures/block/chroma_green.png",
+        "chroma_red.png": "/textures/block/chroma_red.png"
+      }
+    }
+  },
+  "postBuild": []
+}
