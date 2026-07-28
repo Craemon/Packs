@@ -1,0 +1,26 @@
+{
+  "type": "atomic",
+  "id": "unlock-all-recipes",
+  "name": "Unlock All Recipes",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua"
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "pack.png": "/packIcons/unlockAllRecipes.png",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json",
+        "unlock_all_recipes.json": "/data/craemon/advancement/unlock_all_recipes.json"
+      },
+      "minecraft/tags/function/load.json": "/data/function/load/unlock_all_recipes.json",
+      "unlock_all_recipes/function/grant_recipes.mcfunction":"/data/function/grant_all_recipes.mcfunction"
+    }
+  },
+  "postBuild": []
+}
