@@ -16,17 +16,17 @@
     "pack.png": "/packIcons/chromakey.png",
     "assets/minecraft/": {
       "models/block/": {
-        "ochre_froglight.json": "/models/block/chromakey_ochre_froglight.json",
-        "ochre_froglight_horizontal.json": "/models/block/chromakey_ochre_froglight_horizontal.json",
-        "pearlescent_froglight.json": "/models/block/chromakey_pearlescent_froglight.json",
-        "pearlescent_froglight_horizontal.json": "/models/block/chromakey_pearlescent_froglight_horizontal.json",
-        "verdant_froglight.json": "/models/block/chromakey_verdant_froglight.json",
-        "verdant_froglight_horizontal.json": "/models/block/chromakey_verdant_froglight_horizontal.json"
+        "ochre_froglight.json": "/assets/models/block/chromakey_ochre_froglight.json",
+        "ochre_froglight_horizontal.json": "/assets/models/block/chromakey_ochre_froglight_horizontal.json",
+        "pearlescent_froglight.json": "/assets/models/block/chromakey_pearlescent_froglight.json",
+        "pearlescent_froglight_horizontal.json": "/assets/models/block/chromakey_pearlescent_froglight_horizontal.json",
+        "verdant_froglight.json": "/assets/models/block/chromakey_verdant_froglight.json",
+        "verdant_froglight_horizontal.json": "/assets/models/block/chromakey_verdant_froglight_horizontal.json"
       },
       "textures/block/": {
-        "chroma_blue.png": "/textures/block/chroma_blue.png",
-        "chroma_green.png": "/textures/block/chroma_green.png",
-        "chroma_red.png": "/textures/block/chroma_red.png"
+        "chroma_blue.png": "/assets/textures/block/chroma_blue.png",
+        "chroma_green.png": "/assets/textures/block/chroma_green.png",
+        "chroma_red.png": "/assets/textures/block/chroma_red.png"
       }
     }
   },

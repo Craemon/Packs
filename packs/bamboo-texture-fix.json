@@ -15,8 +15,8 @@
     "README.md": "/readmeFiles/bambooTextureFix.md",
     "pack.png": "/packIcons/bambooTextureFix.png",
     "assets/minecraft/textures/block/": {
-      "bamboo_block.png": "/textures/block/bamboo_block.png",
-      "bamboo_block_top.png": "/textures/block/bamboo_block_top.png"
+      "bamboo_block.png": "/assets/textures/block/bamboo_block.png",
+      "bamboo_block_top.png": "/assets/textures/block/bamboo_block_top.png"
     }
   },
   "postBuild": []

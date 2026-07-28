@@ -15,11 +15,11 @@
     "pack.png": "/packIcons/replaceMeTemplatePack.png",
     "assets/betterchromakey/textures/entity/chest/": {
       "items/": {
-        "replace_me_block.json": "/items/replace_me_block.json",
-        "replace_me_lamp.json": "/items/replace_me_lamp.json"
+        "replace_me_block.json": "/assets/items/replace_me_block.json",
+        "replace_me_lamp.json": "/assets/items/replace_me_lamp.json"
       },
-      "models/block/replace_me_block.json": "/models/block/replace_me_block.json",
-      "textures/block/replace_me.png": "/textures/block/replace_me.png"
+      "models/block/replace_me_block.json": "/assets/models/block/replace_me_block.json",
+      "textures/block/replace_me.png": "/assets/textures/block/replace_me.png"
     }
   },
   "postBuild": []

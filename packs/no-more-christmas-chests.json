@@ -15,9 +15,9 @@
     "README.md": "/readmeFiles/noMoreChristmasChests.md",
     "pack.png": "/packIcons/noMoreChristmasChests.png",
     "assets/minecraft/textures/entity/chest/": {
-      "christmas.png": "/textures/entity/chest/normal.png",
-      "christmas_left.png": "/textures/entity/chest/normal_left.png",
-      "christmas_right.png": "/textures/entity/chest/normal_right.png"
+      "christmas.png": "/assets/textures/entity/chest/normal.png",
+      "christmas_left.png": "/assets/textures/entity/chest/normal_left.png",
+      "christmas_right.png": "/assets/textures/entity/chest/normal_right.png"
     }
   },
   "postBuild": []

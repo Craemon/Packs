@@ -15,7 +15,7 @@
     "README.md": "/readmeFiles/chiseledStoneBrickFix.md",
     "pack.png": "/packIcons/chiseledStoneBrickFix.png",
     "assets/minecraft/textures/block/": {
-      "chiseled_stone_bricks.png": "/textures/block/chiseled_stone_bricks.png"
+      "chiseled_stone_bricks.png": "/assets/textures/block/chiseled_stone_bricks.png"
     }
   },
   "postBuild": []
