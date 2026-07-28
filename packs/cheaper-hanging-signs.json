@@ -9,7 +9,8 @@
   "version": "1.0.0",
   "preBuild": [
     "/scripts/generate_datapack_mcmeta.lua",
-    "/scripts/generate_recipes/cheaper_hanging_signs.lua"
+    "/scripts/generate_recipes/cheaper_hanging_signs.lua",
+    "/scripts/generate_advancements/crafting_datapacks.lua minecraft:warped_hanging_sign \"Get 12 instead of 6 hanging signs from crafting!\""
   ],
   "structure": {
     "LICENSE": "/licenses/craemonDatapackLicense",
@@ -18,8 +19,7 @@
     "data/": {
       "craemon/advancement/": {
         "main.json": "/data/craemon/advancement/main.json",
-        "crafting.json": "/data/craemon/advancement/crafting.json",
-        "cheaper_hanging_signs.json": "/data/craemon/advancement/cheaper_hanging_signs.json"
+        "crafting.json": "/data/craemon/advancement/crafting.json"
       }
     }
   },
