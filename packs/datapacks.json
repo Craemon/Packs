@@ -4,5 +4,8 @@
   "name": "Datapacks",
   "specVersion": 1,
   "childPacks": [
+    "crafting-datapacks.json",
+    "players-drop-heads.json",
+    "unlock-all-recipes.json"
   ]
 }

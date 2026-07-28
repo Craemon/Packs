@@ -1,0 +1,27 @@
+{
+  "type": "atomic",
+  "id": "cheaper-hanging-signs",
+  "name": "Cheaper Hanging Signs",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua",
+    "/scripts/generate_recipes/cheaper_hanging_signs.lua"
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "README.md": "/readmeFiles/cheaperHangingSigns.md",
+    "pack.png": "/packIcons/cheaperHangingSigns.png",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json",
+        "crafting.json": "/data/craemon/advancement/crafting.json",
+        "cheaper_hanging_signs.json": "/data/craemon/advancement/cheaper_hanging_signs.json"
+      }
+    }
+  },
+  "postBuild": []
+}

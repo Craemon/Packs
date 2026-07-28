@@ -1,0 +1,9 @@
+{
+  "type": "list",
+  "id": "crafting-datapacks",
+  "name": "Crafting Datapacks",
+  "specVersion": 1,
+  "childPacks": [
+    "cheaper-hanging-signs.json"
+  ]
+}
