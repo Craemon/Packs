@@ -26,4 +26,8 @@ It allows me to reuse common files across multiple packs by merging all assets r
 
 #### Datapacks:
 
-not added yet
+- Players Drop Heads
+- Unlock All Recipes
+- Crafting Packs:
+  - Cheaper Hanging Signs
+  - Cheaper Shelves
