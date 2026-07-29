@@ -1,0 +1,27 @@
+{
+  "type": "atomic",
+  "id": "cheaper-shelves",
+  "name": "Cheaper Shelves",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua",
+    "/scripts/generate_recipes/cheaper_shelves.lua",
+    "/scripts/generate_advancements/crafting_datapacks.lua minecraft:warped_shelf \"Get 12 instead of 6 shelves from crafting!\""
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "README.md": "/readmeFiles/cheaperShelves.md",
+    "pack.png": "/packIcons/cheaperShelves.png",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json",
+        "crafting.json": "/data/craemon/advancement/crafting.json"
+      }
+    }
+  },
+  "postBuild": []
+}
