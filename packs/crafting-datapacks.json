@@ -4,6 +4,7 @@
   "name": "Crafting Datapacks",
   "specVersion": 1,
   "childPacks": [
-    "cheaper-hanging-signs.json"
+    "cheaper-hanging-signs.json",
+    "cheaper-shelves.json"
   ]
 }
