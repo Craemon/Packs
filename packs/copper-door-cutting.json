@@ -1,0 +1,27 @@
+{
+  "type": "atomic",
+  "id": "copper-door-cutting",
+  "name": "Copper Door Cutting",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua",
+    "/scripts/generate_recipes/copper_door_cutting.lua",
+    "/scripts/generate_advancements/crafting_datapacks.lua minecraft:copper_door \"Adds recipes for all copper doors and trapdoors to the stonecutter!\""
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "README.md": "/readmeFiles/copperDoorCutting.md",
+    "pack.png": "/packIcons/copperDoorCutting.png",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json",
+        "crafting.json": "/data/craemon/advancement/crafting.json"
+      }
+    }
+  },
+  "postBuild": []
+}

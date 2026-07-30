@@ -5,6 +5,7 @@
   "specVersion": 1,
   "childPacks": [
     "cheaper-hanging-signs.json",
-    "cheaper-shelves.json"
+    "cheaper-shelves.json",
+    "copper-door-cutting.json"
   ]
 }
