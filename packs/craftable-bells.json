@@ -1,0 +1,27 @@
+{
+  "type": "atomic",
+  "id": "craftable-bells",
+  "name": "Craftable Bells",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua",
+    "/scripts/generate_advancements/crafting_datapacks.lua minecraft:bell \"Adds a crafting recipe for bells!\""
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "README.md": "/readmeFiles/craftableBells.md",
+    "pack.png": "/packIcons/craftableBells.png",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json",
+        "crafting.json": "/data/craemon/advancement/crafting.json"
+      },
+      "crafting/recipe/bell.json": "/data/recipe/bell.json"
+    }
+  },
+  "postBuild": []
+}

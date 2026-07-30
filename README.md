@@ -32,3 +32,4 @@ It allows me to reuse common files across multiple packs by merging all assets r
   - Cheaper Hanging Signs
   - Cheaper Shelves
   - Copper Door Cutting
+  - Craftable Bells

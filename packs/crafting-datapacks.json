@@ -6,6 +6,7 @@
   "childPacks": [
     "cheaper-hanging-signs.json",
     "cheaper-shelves.json",
-    "copper-door-cutting.json"
+    "copper-door-cutting.json",
+    "craftable-bells.json"
   ]
 }
