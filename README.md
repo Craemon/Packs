@@ -33,3 +33,4 @@ It allows me to reuse common files across multiple packs by merging all assets r
   - Cheaper Shelves
   - Copper Door Cutting
   - Craftable Bells
+  - Craftable Budding Amethyst

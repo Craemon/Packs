@@ -1,0 +1,27 @@
+{
+  "type": "atomic",
+  "id": "craftable-budding-amethyst",
+  "name": "Craftable Budding Amethyst",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua",
+    "/scripts/generate_recipes/craftable_budding_amethyst.lua",
+    "/scripts/generate_advancements/crafting_datapacks.lua minecraft:budding_amethyst \"Adds a crafting recipe for budding amethyst!\""
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "README.md": "/readmeFiles/craftableBuddingAmethyst.md",
+    "pack.png": "/packIcons/craftableBuddingAmethyst.png",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json",
+        "crafting.json": "/data/craemon/advancement/crafting.json"
+      }
+    }
+  },
+  "postBuild": []
+}
