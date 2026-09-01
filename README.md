@@ -35,3 +35,5 @@ It allows me to reuse common files across multiple packs by merging all assets r
   - Craftable Bells
   - Craftable Budding Amethyst
   - Craftable Chainmail
+  - Craftable Coral Blocks
+  - Craftable Elytra
