@@ -29,11 +29,14 @@ It allows me to reuse common files across multiple packs by merging all assets r
 - Players Drop Heads
 - Unlock All Recipes
 - Crafting Packs:
-  - Cheaper Hanging Signs
-  - Cheaper Shelves
+  - Cheaper:
+    - Cheaper Hanging Signs
+    - Cheaper Shelves
   - Copper Door Cutting
-  - Craftable Bells
-  - Craftable Budding Amethyst
-  - Craftable Chainmail
-  - Craftable Coral Blocks
-  - Craftable Elytra
+  - Craftables:
+    - Craftable Bells
+    - Craftable Budding Amethyst
+    - Craftable Chainmail
+    - Craftable Coral Blocks
+    - Craftable Elytra
+    - Craftable Enchanted Golden Apples
