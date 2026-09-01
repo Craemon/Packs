@@ -40,3 +40,4 @@ It allows me to reuse common files across multiple packs by merging all assets r
     - Craftable Coral Blocks
     - Craftable Elytra
     - Craftable Enchanted Golden Apples
+    - Craftable Horse Armor
