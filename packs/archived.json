@@ -1,0 +1,9 @@
+{
+  "type": "list",
+  "id": "archived",
+  "name": "Archived",
+  "specVersion": 1,
+  "childPacks": [
+    "craftable-nametags.json"
+  ]
+}

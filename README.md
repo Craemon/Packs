@@ -12,6 +12,8 @@ It allows me to reuse common files across multiple packs by merging all assets r
 
 - Resourcepacks (contains all resource packs)
 - Datapacks (contains all datapacks)
+- Crafting Datapacks (contains all datapacks which add or modify crafting recipes)
+- Archived (contains all Packs which were archived)
 
 ### Atomic packs:
 
@@ -41,3 +43,4 @@ It allows me to reuse common files across multiple packs by merging all assets r
     - Craftable Elytra
     - Craftable Enchanted Golden Apples
     - Craftable Horse Armor
+    - Craftable Nametags (Archived)

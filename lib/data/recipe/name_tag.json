@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " SI",
+        " PS",
+        "P  "
+    ],
+    "key": {
+        "S": "minecraft:string",
+        "I": "minecraft:iron_ingot",
+        "P": "minecraft:paper"
+    },
+    "result": {
+        "id": "minecraft:name_tag",
+        "count": 1
+    }
+}
