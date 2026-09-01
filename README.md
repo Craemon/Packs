@@ -44,3 +44,4 @@ It allows me to reuse common files across multiple packs by merging all assets r
     - Craftable Enchanted Golden Apples
     - Craftable Horse Armor
     - Craftable Nametags (Archived)
+    - Craftable Rooted Dirt
