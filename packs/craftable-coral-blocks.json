@@ -1,0 +1,28 @@
+{
+  "type": "atomic",
+  "id": "craftable-coral-blocks",
+  "name": "Craftable Coral Blocks",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.1.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua",
+    "/scripts/generate_advancements/crafting_datapacks.lua minecraft:tube_coral_block \"Adds a recipe for coral blocks!\"",
+    "/scripts/generate_tags/coral_variants.lua",
+    "/scripts/generate_recipes/craftable_coral_blocks.lua"
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "README.md": "/readmeFiles/craftableCoralBlocks.md",
+    "pack.png": "/packIcons/craftableCoralBlocks.png",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json",
+        "crafting.json": "/data/craemon/advancement/crafting.json"
+      }
+    }
+  },
+  "postBuild": []
+}
