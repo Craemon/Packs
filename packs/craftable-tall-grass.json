@@ -1,0 +1,29 @@
+{
+  "type": "atomic",
+  "id": "craftable-tall-grass",
+  "name": "Craftable Tall Grass",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.1.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua",
+    "/scripts/generate_advancements/crafting_datapacks.lua minecraft:tall_grass \"Adds a crafting recipes for Tall Grass and Fern!\""
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "README.md": "/readmeFiles/craftableTallGrass.md",
+    "pack.png": "/packIcons/craftableTallGrass.png",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json",
+        "crafting.json": "/data/craemon/advancement/crafting.json"
+      },
+      "craemon/recipe/tall_dry_grass.json": "/data/recipe/tall_dry_grass.json",
+      "craemon/recipe/tall_fern.json": "/data/recipe/tall_fern.json",
+      "craemon/recipe/tall_grass.json": "/data/recipe/tall_grass.json"
+    }
+  },
+  "postBuild": []
+}

@@ -45,3 +45,4 @@ It allows me to reuse common files across multiple packs by merging all assets r
     - Craftable Horse Armor
     - Craftable Nametags (Archived)
     - Craftable Rooted Dirt
+    - Craftable Tall Grass
