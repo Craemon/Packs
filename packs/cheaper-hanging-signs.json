@@ -6,7 +6,7 @@
   "characteristics": ["datapack"],
   "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
   "specVersion": 1,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "preBuild": [
     "/scripts/generate_datapack_mcmeta.lua",
     "/scripts/generate_recipes/cheaper_hanging_signs.lua",

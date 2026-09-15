@@ -13,6 +13,7 @@ local woodTypes = {
     { "mangrove", "log" },
     { "oak", "log" },
     { "pale_oak", "log" },
+    { "poplar", "log" },
     { "spruce", "log" },
     { "warped", "stem" }
 }
