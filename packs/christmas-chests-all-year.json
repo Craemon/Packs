@@ -6,7 +6,7 @@
   "characteristics": ["resourcepack"],
   "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
   "specVersion": 1,
-  "version": "1.0.0",
+  "version": "1.1.1",
   "preBuild": [
     "/scripts/generate_resourcepack_mcmeta.lua"
   ],
@@ -38,19 +38,11 @@
         "mangrove.png": "/assets/textures/entity/chest_boat/xmas_mangrove.png",
         "oak.png": "/assets/textures/entity/chest_boat/xmas_oak.png",
         "pale_oak.png": "/assets/textures/entity/chest_boat/xmas_pale_oak.png",
+        "poplar.png": "/assets/textures/entity/chest_boat/xmas_poplar.png",
         "spruce.png": "/assets/textures/entity/chest_boat/xmas_spruce.png"
       },
       "horse/": {
         "donkey.png": "/assets/textures/entity/horse/xmas_donkey.png",
-        "horse_black.png": "/assets/textures/entity/horse/xmas_horse_black.png",
-        "horse_brown.png": "/assets/textures/entity/horse/xmas_horse_brown.png",
-        "horse_chestnut.png": "/assets/textures/entity/horse/xmas_horse_chestnut.png",
-        "horse_creamy.png": "/assets/textures/entity/horse/xmas_horse_creamy.png",
-        "horse_darkbrown.png": "/assets/textures/entity/horse/xmas_horse_darkbrown.png",
-        "horse_gray.png": "/assets/textures/entity/horse/xmas_horse_gray.png",
-        "horse_skeleton.png": "/assets/textures/entity/horse/xmas_horse_skeleton.png",
-        "horse_white.png": "/assets/textures/entity/horse/xmas_horse_white.png",
-        "horse_zombie.png": "/assets/textures/entity/horse/xmas_horse_zombie.png",
         "mule.png": "/assets/textures/entity/horse/xmas_mule.png"
       },
       "llama/": {
