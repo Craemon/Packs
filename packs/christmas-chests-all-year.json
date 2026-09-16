@@ -6,7 +6,7 @@
   "characteristics": ["resourcepack"],
   "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
   "specVersion": 1,
-  "version": "1.1.1",
+  "version": "1.1.2",
   "preBuild": [
     "/scripts/generate_resourcepack_mcmeta.lua"
   ],
@@ -46,10 +46,10 @@
         "mule.png": "/assets/textures/entity/horse/xmas_mule.png"
       },
       "llama/": {
-        "brown.png": "/assets/textures/entity/llama/xmas_brown.png",
-        "creamy.png": "/assets/textures/entity/llama/xmas_creamy.png",
-        "gray.png": "/assets/textures/entity/llama/xmas_gray.png",
-        "white.png": "/assets/textures/entity/llama/xmas_white.png"
+        "llama_brown.png": "/assets/textures/entity/llama/xmas_brown.png",
+        "llama_creamy.png": "/assets/textures/entity/llama/xmas_creamy.png",
+        "llama_gray.png": "/assets/textures/entity/llama/xmas_gray.png",
+        "llama_white.png": "/assets/textures/entity/llama/xmas_white.png"
       }
     }
   },
