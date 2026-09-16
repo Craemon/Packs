@@ -15,21 +15,20 @@ for _, waxState in ipairs(waxStates) do
     for _, oxidationStage in ipairs(oxidationStages) do
         for _, item in ipairs(itemTypes) do
             local itemId = string.format("%s%scopper_%s", waxState, oxidationStage, item.type)
+            local blockSuffix = (oxidationStage == "") and "copper_block" or "copper"
             local fileName = string.format("data/crafting/recipe/%s.json", itemId)
             local file = io.open(fileName, "w")
             if file then
                 file:write(string.format([[
 {
   "type": "minecraft:stonecutting",
-  "ingredient": [
-    "minecraft:%s%scopper_block"
-  ],
+  "ingredient": "minecraft:%s%s%s",
   "result": {
     "id": "minecraft:%s",
     "count": %d
   }
 }
-]], waxState, oxidationStage, itemId, item.count))
+]], waxState, oxidationStage, blockSuffix, itemId, item.count))
                 file:close()
                 print(string.format("Generated: %s.json", itemId))
             else
