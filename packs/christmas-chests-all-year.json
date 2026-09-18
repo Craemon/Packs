@@ -6,7 +6,7 @@
   "characteristics": ["resourcepack"],
   "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
   "specVersion": 1,
-  "version": "1.1.2",
+  "version": "1.2.0",
   "preBuild": [
     "/scripts/generate_resourcepack_mcmeta.lua"
   ],
@@ -14,42 +14,47 @@
     "LICENSE": "/licenses/craemonResourcepackLicense",
     "README.md": "/readmeFiles/christmasChestsAllYear.md",
     "pack.png": "/packIcons/christmasChestsAllYear.png",
-    "assets/minecraft/textures/entity/": {
-      "chest/": {
-        "copper.png": "/assets/textures/entity/chest/xmas_copper.png",
-        "copper_exposed.png": "/assets/textures/entity/chest/xmas_copper_exposed.png",
-        "copper_oxidized.png": "/assets/textures/entity/chest/xmas_copper_oxidized.png",
-        "copper_weathered.png": "/assets/textures/entity/chest/xmas_copper_weathered.png",
-        "ender.png": "/assets/textures/entity/chest/xmas_ender.png",
-        "normal.png": "/assets/textures/entity/chest/xmas_normal.png",
-        "normal_left.png": "/assets/textures/entity/chest/xmas_normal_left.png",
-        "normal_right.png": "/assets/textures/entity/chest/xmas_normal_right.png",
-        "trapped.png": "/assets/textures/entity/chest/xmas_trapped.png",
-        "trapped_left.png": "/assets/textures/entity/chest/xmas_trapped_left.png",
-        "trapped_right.png": "/assets/textures/entity/chest/xmas_trapped_right.png"
+    "assets/minecraft/textures/": {
+      "entity/": {
+        "chest/": {
+          "copper.png": "/assets/textures/entity/chest/xmas_copper.png",
+          "copper_exposed.png": "/assets/textures/entity/chest/xmas_copper_exposed.png",
+          "copper_oxidized.png": "/assets/textures/entity/chest/xmas_copper_oxidized.png",
+          "copper_weathered.png": "/assets/textures/entity/chest/xmas_copper_weathered.png",
+          "ender.png": "/assets/textures/entity/chest/xmas_ender.png",
+          "normal.png": "/assets/textures/entity/chest/xmas_normal.png",
+          "normal_left.png": "/assets/textures/entity/chest/xmas_normal_left.png",
+          "normal_right.png": "/assets/textures/entity/chest/xmas_normal_right.png",
+          "trapped.png": "/assets/textures/entity/chest/xmas_trapped.png",
+          "trapped_left.png": "/assets/textures/entity/chest/xmas_trapped_left.png",
+          "trapped_right.png": "/assets/textures/entity/chest/xmas_trapped_right.png"
+        },
+        "chest_boat/": {
+          "acacia.png": "/assets/textures/entity/chest_boat/xmas_acacia.png",
+          "bamboo.png": "/assets/textures/entity/chest_boat/xmas_bamboo.png",
+          "birch.png": "/assets/textures/entity/chest_boat/xmas_birch.png",
+          "cherry.png": "/assets/textures/entity/chest_boat/xmas_cherry.png",
+          "dark_oak.png": "/assets/textures/entity/chest_boat/xmas_dark_oak.png",
+          "jungle.png": "/assets/textures/entity/chest_boat/xmas_jungle.png",
+          "mangrove.png": "/assets/textures/entity/chest_boat/xmas_mangrove.png",
+          "oak.png": "/assets/textures/entity/chest_boat/xmas_oak.png",
+          "pale_oak.png": "/assets/textures/entity/chest_boat/xmas_pale_oak.png",
+          "poplar.png": "/assets/textures/entity/chest_boat/xmas_poplar.png",
+          "spruce.png": "/assets/textures/entity/chest_boat/xmas_spruce.png"
+        },
+        "horse/": {
+          "donkey.png": "/assets/textures/entity/horse/xmas_donkey.png",
+          "mule.png": "/assets/textures/entity/horse/xmas_mule.png"
+        },
+        "llama/": {
+          "llama_brown.png": "/assets/textures/entity/llama/xmas_brown.png",
+          "llama_creamy.png": "/assets/textures/entity/llama/xmas_creamy.png",
+          "llama_gray.png": "/assets/textures/entity/llama/xmas_gray.png",
+          "llama_white.png": "/assets/textures/entity/llama/xmas_white.png"
+        }
       },
-      "chest_boat/": {
-        "acacia.png": "/assets/textures/entity/chest_boat/xmas_acacia.png",
-        "bamboo.png": "/assets/textures/entity/chest_boat/xmas_bamboo.png",
-        "birch.png": "/assets/textures/entity/chest_boat/xmas_birch.png",
-        "cherry.png": "/assets/textures/entity/chest_boat/xmas_cherry.png",
-        "dark_oak.png": "/assets/textures/entity/chest_boat/xmas_dark_oak.png",
-        "jungle.png": "/assets/textures/entity/chest_boat/xmas_jungle.png",
-        "mangrove.png": "/assets/textures/entity/chest_boat/xmas_mangrove.png",
-        "oak.png": "/assets/textures/entity/chest_boat/xmas_oak.png",
-        "pale_oak.png": "/assets/textures/entity/chest_boat/xmas_pale_oak.png",
-        "poplar.png": "/assets/textures/entity/chest_boat/xmas_poplar.png",
-        "spruce.png": "/assets/textures/entity/chest_boat/xmas_spruce.png"
-      },
-      "horse/": {
-        "donkey.png": "/assets/textures/entity/horse/xmas_donkey.png",
-        "mule.png": "/assets/textures/entity/horse/xmas_mule.png"
-      },
-      "llama/": {
-        "llama_brown.png": "/assets/textures/entity/llama/xmas_brown.png",
-        "llama_creamy.png": "/assets/textures/entity/llama/xmas_creamy.png",
-        "llama_gray.png": "/assets/textures/entity/llama/xmas_gray.png",
-        "llama_white.png": "/assets/textures/entity/llama/xmas_white.png"
+      "item/": {
+        "chest_minecart.png": "/assets/textures/item/xmas_chest_minecart.png"
       }
     }
   },
