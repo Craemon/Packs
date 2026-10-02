@@ -1,0 +1,23 @@
+{
+  "type": "atomic",
+  "id": "biab-ominous-biomes",
+  "name": "Biome in a Bottle: Ominous Biomes",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.0.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua",
+    "/scripts/biab/generate_ominous_biomes.lua"
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json"
+      }
+    }
+  },
+  "postBuild": []
+}
