@@ -1,0 +1,25 @@
+{
+  "type": "atomic",
+  "id": "nether-ratio-2-1",
+  "name": "Nether Ratio 2:1",
+  "author": "Craemon",
+  "characteristics": ["datapack"],
+  "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
+  "specVersion": 1,
+  "version": "1.1.0",
+  "preBuild": [
+    "/scripts/generate_datapack_mcmeta.lua",
+    "/scripts/generate_nether_overworld_ratio.lua 2.0"
+  ],
+  "structure": {
+    "LICENSE": "/licenses/craemonDatapackLicense",
+    "README.md": "/readmeFiles/netherRatio2-1.md",
+    "data/": {
+      "craemon/advancement/": {
+        "main.json": "/data/craemon/advancement/main.json",
+        "no_ratio.json": "/data/craemon/advancement/no_ratio.json"
+      }
+    }
+  },
+  "postBuild": []
+}

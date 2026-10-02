@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "title": "Nether - Overworld Cords Calculator",
+        "description": "Use /trigger to convert your cordinates!",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "craemon:no_ratio",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

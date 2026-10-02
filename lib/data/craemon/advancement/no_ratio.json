@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "title": "Nether - Overworld Ratio 2:1",
+        "description": "Changes the ratio from Nether to Overworld to 2:1!",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "craemon:main",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
