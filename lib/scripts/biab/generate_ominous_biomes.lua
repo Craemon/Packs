@@ -1,11 +1,10 @@
 #!/usr/bin/env lua
 
 -- 1. Define params + modules
-local lib_dir = os.getenv("LIB_DIR")
-local mc_version = os.getenv("GLOBAL_MINECRAFT_VERSION") or "26.3"
-
+local lib_dir = os.getenv("LIB_DIR") or error("LIB_DIR environment variable is not set!")
 package.path = lib_dir .. "/scripts/modules/?.lua;" .. package.path
 
+local vanilla = require("vanilla")
 local json = require("thirdparty.dkjson")
 
 -- 2. Biomes
@@ -15,10 +14,8 @@ local biomes = {
     "pale_garden", "plains", "river", "snowy_plains", "sparse_jungle", "swamp", "taiga", "warm_ocean"
 }
 
--- 3. Define paths and create dest_dir
-local src_dir = lib_dir .. "/vanilla/" .. mc_version .. "/data/minecraft/worldgen/biome"
+-- 3. Define dest_dir
 local dest_dir = "data/custom_biomes/worldgen/biome"
-
 os.execute("mkdir -p " .. dest_dir)
 
 -- 4. Hostile mob removing function
@@ -33,14 +30,15 @@ local function rm_monsters(json_content)
         local mob_spawns = data.attributes["minecraft:gameplay/natural_mob_spawns"]
         if mob_spawns.argument and mob_spawns.argument.spawns_by_category then
             mob_spawns.argument.spawns_by_category.monster = nil
-            end
         end
+    end
     return json.encode(data, { indent = true })
 end
 
 -- 5. Copy and edit Biomes
 for _, biome in ipairs(biomes) do
-    local src_file = string.format("%s/%s.json", src_dir, biome)
+    local relative_src = string.format("data/minecraft/worldgen/biome/%s.json", biome)
+    local src_file = vanilla.get_path(relative_src)
     local dest_file = string.format("%s/%s_ominous.json", dest_dir, biome)
 
     local file, err = io.open(src_file, "r")

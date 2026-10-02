@@ -1,16 +1,18 @@
 #!/usr/bin/env lua
 
--- 1. Define params
-local lib_dir = os.getenv("LIB_DIR")
-local mc_version = os.getenv("GLOBAL_MINECRAFT_VERSION") or "26.3"
+-- 1. Define params + modules
+local lib_dir = os.getenv("LIB_DIR") or error("LIB_DIR environment variable is not set!")
+package.path = lib_dir .. "/scripts/modules/?.lua;" .. package.path
+
+local vanilla = require("vanilla")
+
 local ratio = tonumber(arg[1]) or 8.0
 local ratio_str = (math.type(ratio) == "integer") and string.format("%.1f", ratio) or tostring(ratio)
 
--- 2. Define paths and create dest_dir
-local src_dir = lib_dir .. "/vanilla/" .. mc_version .. "/data/minecraft/dimension_type"
-local dest_dir = "data/minecraft/dimension_type"
+-- 2. Resolve paths and create dest_dir
+local src_file = vanilla.get_path("data/minecraft/dimension_type/the_nether.json")
 
-local src_file = src_dir .. "/the_nether.json"
+local dest_dir = "data/minecraft/dimension_type"
 local dest_file = dest_dir .. "/the_nether.json"
 
 os.execute("mkdir -p " .. dest_dir)
