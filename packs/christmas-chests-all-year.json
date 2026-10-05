@@ -6,9 +6,11 @@
   "characteristics": ["resourcepack"],
   "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
   "specVersion": 1,
-  "version": "1.2.2",
+  "version": "1.2.3",
   "preBuild": [
     "/scripts/generate_resourcepack_mcmeta.lua",
+    "/scripts/ccay/generate_xmas_horse.lua",
+    "/scripts/ccay/generate_xmas_llama.lua",
     "/scripts/ccay/generate_xmas_chest_boat_entity.lua",
     "/scripts/ccay/generate_xmas_chest_boat_item.lua"
   ],
@@ -30,16 +32,6 @@
           "trapped.png": "/assets/textures/entity/chest/xmas_trapped.png",
           "trapped_left.png": "/assets/textures/entity/chest/xmas_trapped_left.png",
           "trapped_right.png": "/assets/textures/entity/chest/xmas_trapped_right.png"
-        },
-        "horse/": {
-          "donkey.png": "/assets/textures/entity/horse/xmas_donkey.png",
-          "mule.png": "/assets/textures/entity/horse/xmas_mule.png"
-        },
-        "llama/": {
-          "llama_brown.png": "/assets/textures/entity/llama/xmas_brown.png",
-          "llama_creamy.png": "/assets/textures/entity/llama/xmas_creamy.png",
-          "llama_gray.png": "/assets/textures/entity/llama/xmas_gray.png",
-          "llama_white.png": "/assets/textures/entity/llama/xmas_white.png"
         }
       },
       "item/": {
