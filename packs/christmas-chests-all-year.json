@@ -6,10 +6,11 @@
   "characteristics": ["resourcepack"],
   "artifactNamePattern": "{PACK_ID}-{PACK_VERSION}-mc{GLOBAL_MINECRAFT_VERSION}.zip",
   "specVersion": 1,
-  "version": "1.2.1",
+  "version": "1.2.2",
   "preBuild": [
     "/scripts/generate_resourcepack_mcmeta.lua",
-    "/scripts/ccay/generate_xmas_chest_boat_entity.lua"
+    "/scripts/ccay/generate_xmas_chest_boat_entity.lua",
+    "/scripts/ccay/generate_xmas_chest_boat_item.lua"
   ],
   "structure": {
     "LICENSE": "/licenses/craemonResourcepackLicense",
